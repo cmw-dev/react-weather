@@ -8,6 +8,7 @@ export default function Contact() {
         className="contact-link"
         href="https://github.com/cmw-dev/react-weather"
         target="_blank"
+        rel="noopener noreferrer"
       >
         open-source code
       </a>{" "}
@@ -18,6 +19,7 @@ export default function Contact() {
         className="icon-link"
         href="https://www.flaticon.com/free-icons/weather"
         target="_blank"
+        rel="noopener noreferrer"
       >
         justicon - Flaticon
       </a>{" "}
