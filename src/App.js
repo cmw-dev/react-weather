@@ -1,16 +1,29 @@
-import "./App.css";
 import React from "react";
-import Weather from "./Weather";
+import "./App.css";
+import Search from "./Search";
+import Current from "./Current";
+import Extra from "./Extra";
+import Contact from "./Contact";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>React Weather App</h1>
-        <Weather city="Paris" />
-      </header>
+    <div className="container" id="city-search">
+      <div className="row-no-gutters">
+        <div className="col">
+          <Search />
+        </div>
+        <div className="container">
+          <Current />
+        </div>
+        <hr />
+        <div>
+          <Extra />
+        </div>
+        <hr />
+        <div className="container" id="forecast"></div>
+        <br />
+        <Contact />
+      </div>
     </div>
   );
 }
-
-export default App;

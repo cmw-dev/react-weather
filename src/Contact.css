@@ -1,0 +1,14 @@
+.contact {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: -15px;
+  text-align: center;
+  font-size: 11px;
+}
+.contact-link {
+  color: white;
+}
+
+.icon-link {
+  color: white;
+}
