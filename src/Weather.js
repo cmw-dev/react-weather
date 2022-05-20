@@ -59,10 +59,6 @@ export default function Weather(props) {
           </button>
         </form>
         <CurrentInfo data={currentData} />
-
-        <div>
-          <hr />
-        </div>
       </div>
     );
   } else {

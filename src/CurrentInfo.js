@@ -47,6 +47,9 @@ export default function CurrentInfo(props) {
           </div>
         </div>
       </div>
+      <div>
+        <hr />
+      </div>
     </div>
   );
 }
