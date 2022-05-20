@@ -17,13 +17,10 @@
 }
 
 .current-description {
-  margin-top: -20px;
-  margin-left: 20px;
+  margin-top: -8px;
+  margin-left: 10px;
 }
 
-.current-description img {
-  margin-left: -10px;
-}
 .fahrenheit-current {
   cursor: pointer;
 }
