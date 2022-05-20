@@ -12,7 +12,7 @@ export default function Weather(props) {
       temp: response.data.main.temp,
       city: response.data.name,
       description: response.data.weather[0].description,
-      iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}.png`,
+      icon: response.data.weather[0].icon,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       feels: response.data.main.feels_like,
@@ -31,7 +31,6 @@ export default function Weather(props) {
 
   function search() {
     let apiKey = "60596ab1e3173e7ce9d9c23e47eeae8f";
-
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
     axios.get(apiUrl).then(handleSubmit);
   }

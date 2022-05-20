@@ -5,20 +5,23 @@
 }
 
 .current-city {
-  display: block;
   margin-bottom: -1px;
-  text-align: center;
+  text-align: left;
 }
 
 .current-temp {
-  font-size: 50px;
+  font-size: 60px;
   display: inline;
-  padding: 18px;
+  padding: 5px;
+  margin-left: 0;
 }
 
 .current-description {
-  margin-top: -8px;
-  margin-left: 10px;
+  margin-left: 15px;
+  float: right;
+  text-align: right;
+  padding: 5px;
+  text-align: center;
 }
 
 .fahrenheit-current {
