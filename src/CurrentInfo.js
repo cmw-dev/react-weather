@@ -19,6 +19,12 @@ export default function CurrentInfo(props) {
           <WeatherIcon code={props.data.icon} alt={props.data.description} />
           {props.data.description}
         </div>
+        <div className="highLowCurrent">
+          <i className="fa-solid fa-temperature-arrow-up"></i>
+          <span className="currentHigh"> 55°</span> <hr />
+          <i class="fa-solid fa-temperature-arrow-down"></i>
+          <span className="currentLow"> 44°</span>
+        </div>
       </div>
       <div>
         <hr />

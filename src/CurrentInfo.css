@@ -36,3 +36,17 @@
   margin-top: -5px;
   font-size: 16px;
 }
+
+.highLowCurrent {
+  float: right;
+  font-size: 20px;
+  position: static;
+  margin-top: -113px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.highLowCurrent hr {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
