@@ -34,3 +34,9 @@
   margin-top: 3px;
   margin-bottom: 3px;
 }
+
+@media (max-width: 576px) {
+  .highLowCurrent {
+    display: none;
+  }
+}
