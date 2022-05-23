@@ -1,3 +1,9 @@
+.currentMeasurements {
+  display: block;
+  text-align: center;
+  margin-left: -28px;
+}
+
 .current-city {
   margin-bottom: -1px;
 }
@@ -10,7 +16,11 @@
   margin-bottom: -30px;
 }
 .writtenDescription {
-  margin-left: 5px;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  display: block;
+  text-align: center;
 }
 
 .extra-measurements {
@@ -19,20 +29,6 @@
   text-align: center;
   margin-top: -5px;
   font-size: 16px;
-}
-
-.highLowCurrent {
-  float: right;
-  font-size: 20px;
-  position: relative;
-  margin-top: -105px;
-  margin-right: 28px;
-  text-align: center;
-}
-
-.highLowCurrent hr {
-  margin-top: 3px;
-  margin-bottom: 3px;
 }
 
 @media (max-width: 576px) {
