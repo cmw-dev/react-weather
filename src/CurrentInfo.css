@@ -1,17 +1,5 @@
-.units {
-  font-size: 18px;
-  margin: -40px;
-  position: relative;
-}
-
 .current-city {
   margin-bottom: -1px;
-}
-
-.current-temp {
-  font-size: 98px;
-  display: inline;
-  padding: 5px;
 }
 
 .current-description {
@@ -22,13 +10,6 @@
   margin-bottom: -30px;
 }
 
-.fahrenheit-current {
-  cursor: pointer;
-}
-
-.celsius-current {
-  cursor: pointer;
-}
 .extra-measurements {
   margin: 0 auto;
   padding: 5px;

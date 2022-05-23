@@ -3,7 +3,6 @@ import axios from "axios";
 import CurrentInfo from "./CurrentInfo";
 
 export default function Weather(props) {
-  let [ready, setReady] = useState(false);
   let [city, setCity] = useState(props.defaultCity);
   let [currentData, setcurrentData] = useState({ ready: false });
   function handleSubmit(response) {
