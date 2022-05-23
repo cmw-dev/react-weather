@@ -9,14 +9,14 @@
 }
 
 .current-temp {
-  font-size: 95px;
+  font-size: 98px;
   display: inline;
   padding: 5px;
 }
 
 .current-description {
-  padding: 5px;
-  font-size: 25px;
+  padding: 3px;
+  font-size: 23px;
   display: flex;
   justify-content: flex-start;
   margin-bottom: -30px;
@@ -40,13 +40,16 @@
 .highLowCurrent {
   float: right;
   font-size: 20px;
-  position: static;
-  margin-top: -113px;
-  margin-right: 20px;
+  position: relative;
+  margin-top: -105px;
+  margin-right: 28px;
   text-align: center;
 }
 
 .highLowCurrent hr {
   margin-top: 3px;
   margin-bottom: 3px;
+}
+.writtenDescription {
+  margin-left: 5px;
 }
