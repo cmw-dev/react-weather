@@ -1,27 +1,25 @@
 .units {
-  font-size: 17px;
-  margin: -5px;
+  font-size: 18px;
+  margin: -40px;
   position: relative;
 }
 
 .current-city {
   margin-bottom: -1px;
-  text-align: left;
 }
 
 .current-temp {
-  font-size: 60px;
+  font-size: 95px;
   display: inline;
   padding: 5px;
-  margin-left: 0;
 }
 
 .current-description {
-  margin-left: 15px;
-  float: right;
-  text-align: right;
   padding: 5px;
-  text-align: center;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: -30px;
 }
 
 .fahrenheit-current {

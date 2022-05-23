@@ -9,20 +9,15 @@ export default function CurrentInfo(props) {
       <div className="container mt-3 mb-2">
         <div className="current-city">
           <h1>{props.data.city}</h1>
-          <h2 className="current-temp">
-            {Math.round(props.data.temp)}° <span className="units">F | C </span>
-          </h2>
-          <div className="current-description">
-            <h3>
-              {" "}
-              <WeatherIcon
-                code={props.data.icon}
-                alt={props.data.description}
-              />
-              <div>{props.data.description} </div>
-            </h3>
-          </div>
-          <Time date={props.data.date} />
+        </div>
+        <Time date={props.data.date} />
+        <h2 className="current-temp">
+          {Math.round(props.data.temp)}° <span className="units">F | C </span>
+        </h2>
+        <div className="current-description">
+          {" "}
+          <WeatherIcon code={props.data.icon} alt={props.data.description} />
+          {props.data.description}
         </div>
       </div>
       <div>
