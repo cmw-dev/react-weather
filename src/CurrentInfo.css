@@ -9,6 +9,9 @@
   justify-content: flex-start;
   margin-bottom: -30px;
 }
+.writtenDescription {
+  margin-left: 5px;
+}
 
 .extra-measurements {
   margin: 0 auto;
@@ -30,7 +33,4 @@
 .highLowCurrent hr {
   margin-top: 3px;
   margin-bottom: 3px;
-}
-.writtenDescription {
-  margin-left: 5px;
 }
