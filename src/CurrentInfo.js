@@ -17,6 +17,16 @@ export default function CurrentInfo(props) {
           <CurrentWeatherTemp fahrenheit={props.data.temp} />
         </div>
         <div class="writtenDescription"> {props.data.description}</div>
+        <div></div>
+        <div class="highLowCurrent">
+          <span>
+            <i class="fa-solid fa-temperature-arrow-up"> 66°</i>
+          </span>{" "}
+          |{""}
+          <span>
+            {""} <i class="fa-solid fa-temperature-arrow-down"> 44° </i>
+          </span>
+        </div>
       </div>
       <div>
         <hr />

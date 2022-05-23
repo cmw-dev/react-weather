@@ -2,6 +2,7 @@
   display: block;
   text-align: center;
   margin-left: -28px;
+  margin-top: 25px;
 }
 
 .current-city {
@@ -16,9 +17,9 @@
   margin-bottom: -30px;
 }
 .writtenDescription {
-  font-size: 22px;
+  font-size: 20px;
   margin-top: 10px;
-  margin-bottom: -20px;
+  margin-bottom: -30px;
   display: block;
   text-align: center;
 }
@@ -31,8 +32,13 @@
   font-size: 16px;
 }
 
-@media (max-width: 576px) {
-  .highLowCurrent {
-    display: none;
-  }
+.highLowCurrent {
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: -30px;
+}
+.fa-temperature-arrow-down,
+.fa-temperature-arrow-up {
+  font-size: 18px;
 }
