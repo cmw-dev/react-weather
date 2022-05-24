@@ -13,16 +13,6 @@ export default function Contact() {
         open-source code
       </a>{" "}
       by Chelsea Weber
-      <br />
-      icons created by{" "}
-      <a
-        className="icon-link"
-        href="https://www.flaticon.com/free-icons/weather"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        justicon - Flaticon
-      </a>{" "}
     </span>
   );
 }

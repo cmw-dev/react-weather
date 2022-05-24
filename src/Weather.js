@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import CurrentInfo from "./CurrentInfo";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   let [city, setCity] = useState(props.defaultCity);
@@ -8,6 +9,7 @@ export default function Weather(props) {
   function handleSubmit(response) {
     setcurrentData({
       ready: true,
+      coord: response.data.coord,
       temp: response.data.main.temp,
       city: response.data.name,
       description: response.data.weather[0].description,
@@ -40,14 +42,18 @@ export default function Weather(props) {
         <form onSubmit={handleSearch}>
           <input
             type="text"
-            class="col-sm-8 mb-2 "
+            className="col-sm-8 mb-2 "
             placeholder="search for a city"
             autofocus="off"
             id="search-city"
             autocomplete="off"
             onChange={changeCity}
           />
-          <input type="submit" value="search" class="btn btn-outline-light" />
+          <input
+            type="submit"
+            value="search"
+            className="btn btn-outline-light"
+          />
 
           <button
             className="btn btn-outline-light col-sm-*"
@@ -57,6 +63,7 @@ export default function Weather(props) {
           </button>
         </form>
         <CurrentInfo data={currentData} />
+        <WeatherForecast coord={currentData.coord} />
       </div>
     );
   } else {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Weather from "./Weather";
-import WeatherForecast from "./WeatherForecast";
+
 import Contact from "./Contact";
 
 export default function App() {
@@ -10,9 +10,6 @@ export default function App() {
       <div className="row-no-gutters">
         <div className="col">
           <Weather defaultCity="Minneapolis" />
-        </div>
-        <div className="container">
-          <WeatherForecast />
         </div>
         <br />
         <Contact />

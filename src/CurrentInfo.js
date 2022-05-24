@@ -12,7 +12,7 @@ export default function CurrentInfo(props) {
           <h1>{props.data.city}</h1>
         </div>
         <Time date={props.data.date} />
-        <div class="currentMeasurements">
+        <div className="currentMeasurements">
           <WeatherIcon
             code={props.data.icon}
             alt={props.data.description}
@@ -20,15 +20,15 @@ export default function CurrentInfo(props) {
           />
           <CurrentWeatherTemp fahrenheit={props.data.temp} />
         </div>
-        <div class="writtenDescription"> {props.data.description}</div>
+        <div className="writtenDescription"> {props.data.description}</div>
         <div></div>
-        <div class="highLowCurrent">
+        <div className="highLowCurrent">
           <span>
-            <i class="fa-solid fa-temperature-arrow-up"> 66°</i>
+            <i className="fa-solid fa-temperature-arrow-up"> 66°</i>
           </span>{" "}
           |{""}
           <span>
-            {""} <i class="fa-solid fa-temperature-arrow-down"> 44° </i>
+            {""} <i className="fa-solid fa-temperature-arrow-down"> 44° </i>
           </span>
         </div>
       </div>
