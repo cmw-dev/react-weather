@@ -13,7 +13,11 @@ export default function CurrentInfo(props) {
         </div>
         <Time date={props.data.date} />
         <div class="currentMeasurements">
-          <WeatherIcon code={props.data.icon} alt={props.data.description} />
+          <WeatherIcon
+            code={props.data.icon}
+            alt={props.data.description}
+            size={58}
+          />
           <CurrentWeatherTemp fahrenheit={props.data.temp} />
         </div>
         <div class="writtenDescription"> {props.data.description}</div>
