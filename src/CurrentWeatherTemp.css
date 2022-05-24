@@ -1,5 +1,5 @@
 .current-temp {
-  font-size: 80px;
+  font-size: 70px;
   display: inline;
   padding: 5px;
   margin: 0 auto;
@@ -7,7 +7,8 @@
 
 .units {
   font-size: 18px;
-  margin: -40px;
+  margin: -38px;
+  padding: 10px;
   position: relative;
   text-decoration: none;
 }
