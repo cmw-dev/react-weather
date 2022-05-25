@@ -42,7 +42,7 @@ export default function Weather(props) {
         <form onSubmit={handleSearch}>
           <input
             type="text"
-            className="col-md-10 mb-2 "
+            className="col-md-9 mb-2 "
             placeholder="search for a city"
             autoFocus="off"
             id="search-city"
