@@ -35,3 +35,25 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
+
+.morning {
+  background-image: url("./images/morning.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+}
+.afternoon {
+  background-image: url("./images/afternoon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+}
+.night {
+  background-image: url("./images/night.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+}

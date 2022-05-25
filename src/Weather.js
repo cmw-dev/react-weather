@@ -42,7 +42,7 @@ export default function Weather(props) {
         <form onSubmit={handleSearch}>
           <input
             type="text"
-            className="col-sm-8 mb-2 "
+            className="col-md-10 mb-2 "
             placeholder="search for a city"
             autoFocus="off"
             id="search-city"
@@ -54,13 +54,6 @@ export default function Weather(props) {
             value="search"
             className="btn btn-outline-light"
           />
-
-          <button
-            className="btn btn-outline-light col-sm-*"
-            id="current-location-button"
-          >
-            current <i className="fa-solid fa-location-dot"></i>
-          </button>
         </form>
         <CurrentInfo data={currentData} />
         <WeatherForecast coord={currentData.coord} />
