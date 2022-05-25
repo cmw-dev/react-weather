@@ -28,6 +28,8 @@ export default function WeatherForecast(props) {
                   <br />
                 </div>
               );
+            } else {
+              return null;
             }
           })}
         </div>

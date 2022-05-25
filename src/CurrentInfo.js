@@ -7,11 +7,11 @@ import CurrentWeatherTemp from "./CurrentWeatherTemp";
 export default function CurrentInfo(props) {
   return (
     <div>
-      <div className="container mt-3 mb-2">
+      <div className="container mt-3 mb-3">
         <div className="current-city">
           <h1>{props.data.city}</h1>
         </div>
-        <Time date={props.data.date} />
+
         <div className="currentMeasurements">
           <WeatherIcon
             code={props.data.icon}
@@ -22,16 +22,9 @@ export default function CurrentInfo(props) {
         </div>
         <div className="writtenDescription"> {props.data.description}</div>
         <div></div>
-        <div className="highLowCurrent">
-          <span>
-            <i className="fa-solid fa-temperature-arrow-up"> 66°</i>
-          </span>{" "}
-          |{""}
-          <span>
-            {""} <i className="fa-solid fa-temperature-arrow-down"> 44° </i>
-          </span>
-        </div>
+        <Time date={props.data.date} />
       </div>
+
       <div>
         <hr />
       </div>
