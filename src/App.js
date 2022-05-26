@@ -14,7 +14,7 @@ export default function App() {
         hour > 4 && hour < 12 ? "morning" : hour < 20 ? "afternoon" : "night"
       }
     >
-      <div className="container d ">
+      <div className="container">
         <div className="d flex col">
           <Weather defaultCity="Minneapolis" />
         </div>
