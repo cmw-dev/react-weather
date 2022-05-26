@@ -41,15 +41,16 @@ export default function Weather(props) {
       <div className="Search">
         <form onSubmit={handleSearch}>
           <input
+            display="inline"
             type="text"
-            className="col-sm-6 mb-2 "
+            className="col-sm-8 mb-2 "
             placeholder="search for a city"
             autoFocus="off"
-            id="search-city"
             autoComplete="off"
             onChange={changeCity}
           />
           <input
+            display="inline"
             type="submit"
             value="Search"
             className="btn btn-outline-light"
