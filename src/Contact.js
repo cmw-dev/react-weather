@@ -12,7 +12,15 @@ export default function Contact() {
       >
         open-source code
       </a>{" "}
-      by Chelsea Weber
+      by{" "}
+      <a
+        className="contact-link"
+        href="https://www.linkedin.com/in/webercopy/"
+        target="_blank"
+        rel="noopener referrer"
+      >
+        Chelsea Weber
+      </a>
     </span>
   );
 }
