@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div
       className={
-        hour > 8 && hour < 12 ? "morning" : hour < 20 ? "afternoon" : "night"
+        hour > 4 && hour < 12 ? "morning" : hour < 20 ? "afternoon" : "night"
       }
     >
       <div className="container">
