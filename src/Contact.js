@@ -17,7 +17,7 @@ export default function Contact() {
         className="contact-link"
         href="https://www.linkedin.com/in/webercopy/"
         target="_blank"
-        rel="noopener referrer"
+        rel="noopener noreferrer"
       >
         Chelsea Weber
       </a>
