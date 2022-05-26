@@ -44,14 +44,14 @@ hr {
   position: absolute;
 }
 .afternoon {
-  background-image: url("./images/afternoon.jpg");
+  background-image: url("./images/afternoon.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   position: absolute;
 }
 .night {
-  background-image: url("./images/night.jpg");
+  background-image: url("./images/night.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
