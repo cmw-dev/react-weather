@@ -57,3 +57,24 @@ hr {
   width: 100%;
   position: absolute;
 }
+@media (max-width: 528px) {
+  .morning {
+    background-image: url("./images/mobile_morning.jpg");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+  }
+  .afternoon {
+    background-image: url("./images/mobile_aft.png");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+  }
+
+  .night {
+    background-image: url("./images/mobile_night.png");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+  }
+}
