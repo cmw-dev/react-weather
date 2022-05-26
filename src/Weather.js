@@ -41,7 +41,6 @@ export default function Weather(props) {
       <div className="Search">
         <form onSubmit={handleSearch}>
           <input
-            display="inline"
             type="text"
             className="col-sm-8 mb-2 "
             placeholder="search for a city"
@@ -50,7 +49,6 @@ export default function Weather(props) {
             onChange={changeCity}
           />
           <input
-            display="inline"
             type="submit"
             value="Search"
             className="btn btn-outline-light"
